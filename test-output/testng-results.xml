@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39773" started-at="2021-04-03T11:39:33 IST" finished-at="2021-04-03T11:40:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39773" started-at="2021-04-03T11:39:33 IST" finished-at="2021-04-03T11:40:13 IST">
+      <class name="testFiles.TestShopPage">
+        <test-method status="PASS" signature="navigate()[pri:0, instance:testFiles.TestShopPage@7b98f307]" name="navigate" is-config="true" duration-ms="3935" started-at="2021-04-03T11:39:33 IST" finished-at="2021-04-03T11:39:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="Bags()[pri:2, instance:testFiles.TestShopPage@7b98f307]" name="Bags" duration-ms="20810" started-at="2021-04-03T11:39:37 IST" finished-at="2021-04-03T11:39:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bags -->
+        <test-method status="FAIL" signature="cart()[pri:3, instance:testFiles.TestShopPage@7b98f307]" name="cart" duration-ms="14897" started-at="2021-04-03T11:39:58 IST" finished-at="2021-04-03T11:40:13 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<Let's add on...> but was:<There is nothing in your bag. Let's add som...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<Let's add on...> but was:<There is nothing in your bag. Let's add som...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at testFiles.TestShopPage.cart(TestShopPage.java:108)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testFiles.TestShopPage@7b98f307]" name="quit" is-config="true" duration-ms="1171" started-at="2021-04-03T11:40:13 IST" finished-at="2021-04-03T11:40:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testFiles.TestShopPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

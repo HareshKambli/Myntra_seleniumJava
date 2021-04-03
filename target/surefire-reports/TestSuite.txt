@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 61.46 s <<< FAILURE! - in TestSuite
+testFiles.TestShopPage.cart  Time elapsed: 2.678 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<Let's add on...> but was:<There is nothing in your bag. Let's add som...>
+	at testFiles.TestShopPage.cart(TestShopPage.java:108)
+
